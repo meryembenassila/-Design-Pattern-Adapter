@@ -40,7 +40,12 @@ Cette approche crée un **couplage fort** entre l'adaptateur et la classe `TV`. 
 
 La classe `SuperVp` montre qu'il est possible d'implémenter plusieurs interfaces (`VGA` et `Hdmi`). Elle doit alors fournir une implémentation concrète pour toutes les méthodes de ces interfaces (`print` et `view`). Cela évite d'avoir recours à un pattern Adapter, mais oblige la classe à gérer elle-même les différentes conversions de données.
 
+##   Test
 
+![img_2.png](img_2.png)
+
+![img_4.png](img_4.png)
+![img_3.png](img_3.png)
 ## Conclusion
 
 Le pattern Adapter permet de réutiliser du code existant, comme celui de la classe `TV`, même lorsque son interface est incompatible avec celle attendue par le client.
