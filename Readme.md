@@ -25,9 +25,10 @@ Nous créons `HdmiAdapterHeritage`, qui **hérite de `TV` et implémente `VGA`**
 
 Lors de l'instanciation, nous créons directement un objet `HdmiAdapterHeritage`, sans créer séparément un objet `TV`, puisque l'adaptateur en hérite.
 
-![Implémentation par Héritage](Diapositive7.PNG)
 
 ![Implémentation par Héritage](dias8.png)
+![Implémentation par Héritage](Diapositive7.PNG)
+
 
 
 ### Inconvénients
